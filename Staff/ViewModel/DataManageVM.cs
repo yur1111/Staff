@@ -364,7 +364,6 @@ namespace Staff.ViewModel
         #endregion
 
         #region METHODS TO OPEN WINDOW
-        //методы открытия окон
         private void OpenAddDepartmentWindowMethod()
         {
             AddNewDepartmentWindow newDepartmentWindow = new AddNewDepartmentWindow();
