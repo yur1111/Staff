@@ -379,7 +379,6 @@ namespace Staff.ViewModel
             AddNewUserWindow newUserWindow = new AddNewUserWindow();
             SetCenterPositionAndOpen(newUserWindow);
         }
-        //окна редактирования
         private void OpenEditDepartmentWindowMethod(Department department)
         {
             EditDepartmentWindow editDepartmentWindow = new EditDepartmentWindow(department);
