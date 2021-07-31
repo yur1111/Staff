@@ -118,7 +118,6 @@ namespace Staff.Model
             string result = "Такой позиции не существует";
             using (ApplicationContext db = new ApplicationContext())
             {
-                //check position is exist
                 db.Positions.Remove(position);
                 db.SaveChanges();
                 result = "Сделано! Позиция " + position.Name + " удалена";
