@@ -169,7 +169,6 @@ namespace Staff.Model
             string result = "Такого сотрудника не существует";
             using (ApplicationContext db = new ApplicationContext())
             {
-                //check user is exist
                 User user = db.Users.FirstOrDefault(p => p.Id == oldUser.Id);
                 if (user != null)
                 {
