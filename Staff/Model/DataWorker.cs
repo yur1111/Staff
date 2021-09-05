@@ -183,7 +183,7 @@ namespace Staff.Model
             return result;
         }
         #endregion
-        //получение позиции по id позитиции
+        //получение позиции по id позиции
         public static Position GetPositionById(int id)
         {
             using(ApplicationContext db = new ApplicationContext())
