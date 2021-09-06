@@ -357,6 +357,7 @@ namespace Staff.ViewModel
                     {
                         OpenEditDepartmentWindowMethod(SelectedDepartment);
                     }
+                    ShowMessageToUser(resultStr);
                 }
                     );
             }
